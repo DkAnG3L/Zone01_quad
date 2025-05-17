@@ -13,7 +13,7 @@ func printBoard(board [size][size]int) {
 	for i := 0; i < size; i++ {
 		for j := 0; j < size; j++ {
 			z01.PrintRune(rune(board[i][j] + '0')) // Μετατροπή αριθμού σε χαρακτήρα
-			z01.PrintRune(' ')                     // Κενό μεταξύ των αριθμών
+			z01.PrintRune(' ') // Κενό μεταξύ των αριθμών
 		}
 		z01.PrintRune('\n') // Νέα γραμμή μετά από κάθε γραμμή του πίνακα
 	}
